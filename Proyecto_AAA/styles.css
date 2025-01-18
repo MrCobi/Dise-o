@@ -41,6 +41,12 @@
     height: 15px;
   }
 
+  a:focus {
+    outline: 3px solid #00d85e;
+    outline-offset: 2px;
+    background-color: rgb(4 73 35 / 10%);
+  }
+
   .footer-column ul li a {
     color: #000;
     text-decoration: none;
@@ -54,7 +60,7 @@
 
   .hero-content p {
     font-size: 18px;
-    color: #4B4B4B;
+    color: #4b4b4b;
   }
 
   .services-description p {
@@ -215,7 +221,7 @@
 
   .main-header .extras .btn {
     background-color: #00d85e;
-    color: #2F2F2F;
+    color: #2f2f2f;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
@@ -225,7 +231,7 @@
   }
 
   .about-container .text-section .btn {
-    background-color: #692ED9;
+    background-color: #692ed9;
     color: white;
     padding: 10px 20px;
     margin-top: 100px;
@@ -257,7 +263,7 @@
   }
 
   .hero-buttons .btn-green {
-    color: #02572C;
+    color: #02572c;
   }
 
   .hero-image {
@@ -339,7 +345,7 @@
   }
 
   .services-description h1 {
-    color: #005E24;
+    color: #005e24;
     font-size: 1.5em;
   }
 
@@ -403,7 +409,7 @@
 
   .achievements-container .text-content h2 {
     font-size: 16px;
-    color: #5C3CA1;
+    color: #5c3ca1;
     margin-bottom: 10px;
   }
 
@@ -483,7 +489,7 @@
 
   .about-container .text-section p:first-child {
     font-size: 14px;
-    color: #005E24;
+    color: #005e24;
   }
 
   .about-container .text-section .btn:hover {
@@ -534,7 +540,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(2) strong {
-    color: #91412E;
+    color: #91412e;
   }
 
   .about-container .stats-section .stat:nth-child(3) {
@@ -544,7 +550,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(3) strong {
-    color: #846D1D;
+    color: #846d1d;
   }
 
   .about-container .stats-section .stat:nth-child(4) {
@@ -554,7 +560,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(4) strong {
-    color: #2B5F72;
+    color: #2b5f72;
   }
 
   #digital-brands {
@@ -564,7 +570,7 @@
   }
 
   #digital-brands p {
-    color: #622BCD;
+    color: #622bcd;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -598,10 +604,17 @@
     margin-top: 40px;
   }
 
+  #insights h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+
   #digital-brands .projects .project h1 {
     font-size: 1.25rem;
     margin-bottom: 15px;
-    color: #4B4B4B;
+    color: #4b4b4b;
     text-align: left;
     margin-left: 40px;
   }
@@ -614,16 +627,9 @@
     text-align: center;
   }
 
-  #insights h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    color: #333;
-  }
-
   #insights p {
     text-align: center;
-    color: #005E24;
+    color: #005e24;
   }
 
   #insights .blog-posts {
@@ -670,8 +676,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color: white;
-    border: #692ED9 solid 2px;
-    color: #692ED9;
+    border: #692ed9 solid 2px;
+    color: #692ed9;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -775,14 +781,6 @@
     color: #ccc;
   }
 
-  a:focus {
-    outline: 3px solid #00d85e;
-    outline-offset: 2px; 
-    background-color: rgba(4, 73, 35, 0.1); 
-  }
-
-  
-
   .skip-link {
     position: absolute;
     top: -40px;
@@ -795,14 +793,12 @@
     border-radius: 5px;
     transition: top 0.3s ease;
   }
-  
-  .skip-link:focus {
-    top: 0; 
-    background-color: #00d85e;
-    color: #2F2F2F;
-  }
-  
 
+  .skip-link:focus {
+    top: 0;
+    background-color: #00d85e;
+    color: #2f2f2f;
+  }
 }
 
 /* Tablets */
@@ -850,6 +846,12 @@
     height: 15px;
   }
 
+  a:focus {
+    outline: 3px solid #00d85e;
+    outline-offset: 2px;
+    background-color: rgb(255 99 71 / 10%);
+  }
+
   .footer-column ul li a {
     color: #000;
     text-decoration: none;
@@ -863,7 +865,7 @@
 
   .hero-content p {
     font-size: 13px;
-    color: #4B4B4B;
+    color: #4b4b4b;
   }
 
   .services-description p {
@@ -984,7 +986,7 @@
 
   .main-header .extras .btn {
     background-color: #00d85e;
-    color: #2F2F2F;
+    color: #2f2f2f;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
@@ -994,7 +996,7 @@
   }
 
   .about-container .text-section .btn {
-    background-color: #692ED9;
+    background-color: #692ed9;
     color: white;
     padding: 10px 20px;
     margin-top: 100px;
@@ -1031,7 +1033,7 @@
   }
 
   .hero-buttons .btn-green {
-    color: #02572C;
+    color: #02572c;
   }
 
   .hero-image {
@@ -1120,7 +1122,7 @@
   }
 
   .services-description h1 {
-    color: #005E24;
+    color: #005e24;
     font-size: 1.5em;
   }
 
@@ -1185,7 +1187,7 @@
 
   .achievements-container .text-content h2 {
     font-size: 16px;
-    color: #5C3CA1;
+    color: #5c3ca1;
     margin-bottom: 10px;
   }
 
@@ -1287,7 +1289,7 @@
 
   .about-container .text-section p:first-child {
     font-size: 14px;
-    color: #005E24;
+    color: #005e24;
   }
 
   .about-container .text-section .btn:hover {
@@ -1338,7 +1340,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(2) strong {
-    color: #91412E;
+    color: #91412e;
   }
 
   .about-container .stats-section .stat:nth-child(3) {
@@ -1348,7 +1350,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(3) strong {
-    color: #846D1D;
+    color: #846d1d;
   }
 
   .about-container .stats-section .stat:nth-child(4) {
@@ -1358,7 +1360,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(4) strong {
-    color: #2B5F72;
+    color: #2b5f72;
   }
 
   #digital-brands {
@@ -1368,7 +1370,7 @@
   }
 
   #digital-brands p {
-    color: #622BCD;
+    color: #622bcd;
     text-align: center;
   }
 
@@ -1398,10 +1400,17 @@
     margin-top: 40px;
   }
 
+  #insights h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+
   #digital-brands .projects .project h1 {
     font-size: 1.25rem;
     margin-bottom: 15px;
-    color: #4B4B4B;
+    color: #4b4b4b;
     text-align: left;
     margin-left: 20px;
   }
@@ -1414,16 +1423,9 @@
     text-align: center;
   }
 
-  #insights h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    color: #333;
-  }
-
   #insights p {
     text-align: center;
-    color: #005E24;
+    color: #005e24;
   }
 
   #insights .blog-posts {
@@ -1469,8 +1471,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color: white;
-    border: #692ED9 solid 2px;
-    color: #692ED9;
+    border: #692ed9 solid 2px;
+    color: #692ed9;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -1581,13 +1583,6 @@
     color: #ccc;
   }
 
-  a:focus {
-    outline: 3px solid #00d85e; 
-    outline-offset: 2px; 
-    background-color: rgba(255, 99, 71, 0.1);
-  }
-
-  
   .skip-link {
     position: absolute;
     top: -40px;
@@ -1600,14 +1595,12 @@
     border-radius: 5px;
     transition: top 0.3s ease;
   }
-  
+
   .skip-link:focus {
-    top: 0; 
+    top: 0;
     background-color: #00d85e;
-    color: #2F2F2F;
+    color: #2f2f2f;
   }
-
-
 }
 
 /* Móvil */
@@ -1655,6 +1648,12 @@
     height: 15px;
   }
 
+  a:focus {
+    outline: 3px solid #00d85e;
+    outline-offset: 2px;
+    background-color: rgb(255 99 71 / 10%);
+  }
+
   .footer-column ul li a {
     color: #000;
     text-decoration: none;
@@ -1668,7 +1667,7 @@
 
   .hero-content p {
     font-size: 13px;
-    color: #4B4B4B;
+    color: #4b4b4b;
   }
 
   .services-description p {
@@ -1790,7 +1789,7 @@
 
   .main-header .extras .btn {
     background-color: #00d85e;
-    color: #2F2F2F;
+    color: #2f2f2f;
     text-decoration: none;
     padding: 15px;
     border-radius: 5px;
@@ -1800,7 +1799,7 @@
   }
 
   .about-container .text-section .btn {
-    background-color: #692ED9;
+    background-color: #692ed9;
     color: white;
     padding: 10px 20px;
     margin-top: 100px;
@@ -1838,7 +1837,7 @@
   }
 
   .hero-buttons .btn-green {
-    color: #02572C;
+    color: #02572c;
   }
 
   .hero-image {
@@ -1927,7 +1926,7 @@
   }
 
   .services-description h1 {
-    color: #005E24;
+    color: #005e24;
     font-size: 1.5em;
   }
 
@@ -1988,7 +1987,7 @@
 
   .achievements-container .text-content h2 {
     font-size: 16px;
-    color: #5C3CA1;
+    color: #5c3ca1;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -2089,7 +2088,7 @@
 
   .about-container .text-section p:first-child {
     font-size: 14px;
-    color: #005E24;
+    color: #005e24;
   }
 
   .about-container .text-section .btn:hover {
@@ -2140,7 +2139,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(2) strong {
-    color: #91412E;
+    color: #91412e;
   }
 
   .about-container .stats-section .stat:nth-child(3) {
@@ -2150,7 +2149,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(3) strong {
-    color: #846D1D;
+    color: #846d1d;
   }
 
   .about-container .stats-section .stat:nth-child(4) {
@@ -2160,7 +2159,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(4) strong {
-    color: #2B5F72;
+    color: #2b5f72;
   }
 
   #digital-brands {
@@ -2170,7 +2169,7 @@
   }
 
   #digital-brands p {
-    color: #622BCD;
+    color: #622bcd;
     text-align: center;
   }
 
@@ -2200,10 +2199,17 @@
     margin-top: 40px;
   }
 
-  #digital-brands .projects .project h1{
+  #insights h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+
+  #digital-brands .projects .project h1 {
     font-size: 1.25rem;
     margin-bottom: 15px;
-    color: #4B4B4B;
+    color: #4b4b4b;
     text-align: left;
     margin-left: 20px;
   }
@@ -2216,16 +2222,9 @@
     text-align: center;
   }
 
-  #insights h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    color: #333;
-  }
-
   #insights p {
     text-align: center;
-    color: #005E24;
+    color: #005e24;
   }
 
   #insights .blog-posts {
@@ -2271,8 +2270,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color: white;
-    border: #692ED9 solid 2px;
-    color: #692ED9;
+    border: #692ed9 solid 2px;
+    color: #692ed9;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -2383,13 +2382,6 @@
     color: #ccc;
   }
 
-  a:focus {
-    outline: 3px solid #00d85e; 
-    outline-offset: 2px; 
-    background-color: rgba(255, 99, 71, 0.1); 
-  }
-
-  
   .skip-link {
     position: absolute;
     top: -40px;
@@ -2402,14 +2394,12 @@
     border-radius: 5px;
     transition: top 0.3s ease;
   }
-  
+
   .skip-link:focus {
-    top: 0; 
+    top: 0;
     background-color: #00d85e;
-    color: #2F2F2F;
+    color: #2f2f2f;
   }
-
-
 }
 
 /* Móvil  */
@@ -2457,6 +2447,12 @@
     height: 15px;
   }
 
+  a:focus {
+    outline: 3px solid #00d85e;
+    outline-offset: 2px;
+    background-color: rgb(255 99 71 / 10%);
+  }
+
   .footer-column ul li a {
     color: #000;
     text-decoration: none;
@@ -2470,7 +2466,7 @@
 
   .hero-content p {
     font-size: 13px;
-    color: #4B4B4B;
+    color: #4b4b4b;
   }
 
   .services-description p {
@@ -2591,7 +2587,7 @@
 
   .main-header .extras .btn {
     background-color: #00d85e;
-    color: #2F2F2F;
+    color: #2f2f2f;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
@@ -2601,7 +2597,7 @@
   }
 
   .about-container .text-section .btn {
-    background-color: #692ED9;
+    background-color: #692ed9;
     color: white;
     padding: 10px 20px;
     margin-top: 100px;
@@ -2639,7 +2635,7 @@
   }
 
   .hero-buttons .btn-green {
-    color: #02572C;
+    color: #02572c;
   }
 
   .hero-image {
@@ -2731,7 +2727,7 @@
   }
 
   .services-description h1 {
-    color: #005E24;
+    color: #005e24;
     font-size: 1.5em;
   }
 
@@ -2792,7 +2788,7 @@
 
   .achievements-container .text-content h2 {
     font-size: 16px;
-    color: #5C3CA1;
+    color: #5c3ca1;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -2893,7 +2889,7 @@
 
   .about-container .text-section p:first-child {
     font-size: 14px;
-    color: #005E24;
+    color: #005e24;
   }
 
   .about-container .text-section .btn:hover {
@@ -2944,7 +2940,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(2) strong {
-    color: #91412E;
+    color: #91412e;
   }
 
   .about-container .stats-section .stat:nth-child(3) {
@@ -2954,7 +2950,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(3) strong {
-    color: #846D1D;
+    color: #846d1d;
   }
 
   .about-container .stats-section .stat:nth-child(4) {
@@ -2964,7 +2960,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(4) strong {
-    color: #2B5F72;
+    color: #2b5f72;
   }
 
   #digital-brands {
@@ -2974,8 +2970,16 @@
   }
 
   #digital-brands p {
-    color: #622BCD;
+    color: #622bcd;
     text-align: center;
+  }
+
+  .digital-brands .projects .project h1 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #888;
+    text-align: left;
+    margin-left: 20px;
   }
 
   #digital-brands h1 {
@@ -3004,14 +3008,6 @@
     margin-top: 40px;
   }
 
-  .digital-brands .projects .project h1 {
-    font-size: 1.25rem;
-    margin-bottom: 15px;
-    color: #888;
-    text-align: left;
-    margin-left: 20px;
-  }
-
   #insights {
     max-width: 1200px;
     margin: 50px auto;
@@ -3029,7 +3025,7 @@
 
   #insights p {
     text-align: center;
-    color: #005E24;
+    color: #005e24;
   }
 
   #insights .blog-posts {
@@ -3075,8 +3071,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color: white;
-    border: #692ED9 solid 2px;
-    color: #692ED9;
+    border: #692ed9 solid 2px;
+    color: #692ed9;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -3182,13 +3178,6 @@
     color: #ccc;
   }
 
-  a:focus {
-    outline: 3px solid #00d85e; 
-    outline-offset: 2px; 
-    background-color: rgba(255, 99, 71, 0.1); 
-  }
-
-  
   .skip-link {
     position: absolute;
     top: -40px;
@@ -3201,14 +3190,12 @@
     border-radius: 5px;
     transition: top 0.3s ease;
   }
-  
+
   .skip-link:focus {
-    top: 0; 
-    background-color: #005E24;
+    top: 0;
+    background-color: #005e24;
     color: white;
   }
-  
-
 }
 
 /* Móvil Pequeño */
@@ -3257,6 +3244,12 @@
     height: 15px;
   }
 
+  a:focus {
+    outline: 3px solid #00d85e;
+    outline-offset: 2px;
+    background-color: rgb(255 99 71 / 10%);
+  }
+
   .footer-column ul li a {
     color: #000;
     text-decoration: none;
@@ -3270,7 +3263,7 @@
 
   .hero-content p {
     font-size: 13px;
-    color: #4B4B4B;
+    color: #4b4b4b;
   }
 
   .services-description p {
@@ -3392,7 +3385,7 @@
 
   .main-header .extras .btn {
     background-color: #00d85e;
-    color: #2F2F2F;
+    color: #2f2f2f;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
@@ -3402,7 +3395,7 @@
   }
 
   .about-container .text-section .btn {
-    background-color: #692ED9;
+    background-color: #692ed9;
     color: white;
     padding: 10px 20px;
     margin-top: 100px;
@@ -3440,7 +3433,7 @@
   }
 
   .hero-buttons .btn-green {
-    color: #02572C;
+    color: #02572c;
   }
 
   .hero-image {
@@ -3531,7 +3524,7 @@
   }
 
   .services-description h1 {
-    color: #005E24;
+    color: #005e24;
     font-size: 18px;
   }
 
@@ -3596,7 +3589,7 @@
   }
 
   .achievements-container .text-content h2 {
-    color: #5C3CA1;
+    color: #5c3ca1;
     margin-bottom: 10px;
     font-size: 15px;
     text-align: center;
@@ -3700,7 +3693,7 @@
 
   .about-container .text-section p:first-child {
     font-size: 14px;
-    color: #005E24;
+    color: #005e24;
   }
 
   .about-container .text-section .btn:hover {
@@ -3749,7 +3742,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(2) strong {
-    color: #91412E;
+    color: #91412e;
   }
 
   .about-container .stats-section .stat:nth-child(3) {
@@ -3757,7 +3750,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(3) strong {
-    color: #846D1D;
+    color: #846d1d;
   }
 
   .about-container .stats-section .stat:nth-child(4) {
@@ -3765,7 +3758,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(4) strong {
-    color: #2B5F72;
+    color: #2b5f72;
   }
 
   #digital-brands {
@@ -3775,8 +3768,16 @@
   }
 
   #digital-brands p {
-    color: #622BCD;
+    color: #622bcd;
     text-align: center;
+  }
+
+  .digital-brands .projects .project h1 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #888;
+    text-align: left;
+    margin-left: 20px;
   }
 
   #digital-brands h1 {
@@ -3804,14 +3805,6 @@
     margin-top: 40px;
   }
 
-  .digital-brands .projects .project h1 {
-    font-size: 1.25rem;
-    margin-bottom: 15px;
-    color: #888;
-    text-align: left;
-    margin-left: 20px;
-  }
-
   #insights {
     max-width: 1200px;
     margin: 50px auto;
@@ -3829,7 +3822,7 @@
 
   #insights p {
     text-align: center;
-    color: #005E24;
+    color: #005e24;
   }
 
   #insights .blog-posts {
@@ -3875,8 +3868,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color: white;
-    border: #692ED9 solid 2px;
-    color: #692ED9;
+    border: #692ed9 solid 2px;
+    color: #692ed9;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -3981,13 +3974,6 @@
     color: #ccc;
   }
 
-  a:focus {
-    outline: 3px solid #00d85e; 
-    outline-offset: 2px; 
-    background-color: rgba(255, 99, 71, 0.1); 
-  }
-
-  
   .skip-link {
     position: absolute;
     top: -40px;
@@ -4000,13 +3986,10 @@
     border-radius: 5px;
     transition: top 0.3s ease;
   }
-  
+
   .skip-link:focus {
-    top: 0; 
-    background-color: #005E24;
+    top: 0;
+    background-color: #005e24;
     color: white;
   }
-  
-
-
 }
