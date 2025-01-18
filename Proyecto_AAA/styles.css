@@ -54,12 +54,12 @@
 
   .hero-content p {
     font-size: 18px;
-    color: #666;
+    color: #4B4B4B;
   }
 
   .services-description p {
     font-size: 20px;
-    color: #666;
+    color: #595959;
     margin-bottom: 20px;
   }
 
@@ -215,7 +215,7 @@
 
   .main-header .extras .btn {
     background-color: #00d85e;
-    color: white;
+    color: #2F2F2F;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
@@ -225,7 +225,7 @@
   }
 
   .about-container .text-section .btn {
-    background-color: #7635f3;
+    background-color: #692ED9;
     color: white;
     padding: 10px 20px;
     margin-top: 100px;
@@ -257,7 +257,7 @@
   }
 
   .hero-buttons .btn-green {
-    color: #00d85e;
+    color: #02572C;
   }
 
   .hero-image {
@@ -339,7 +339,7 @@
   }
 
   .services-description h1 {
-    color: #00d85e;
+    color: #005E24;
     font-size: 1.5em;
   }
 
@@ -403,7 +403,7 @@
 
   .achievements-container .text-content h2 {
     font-size: 16px;
-    color: #8e5ff4;
+    color: #5C3CA1;
     margin-bottom: 10px;
   }
 
@@ -437,7 +437,7 @@
 
   .achievements-container .stat p {
     font-size: 16px;
-    color: #666;
+    color: #595959;
   }
 
   .achievements-container .image-content {
@@ -472,18 +472,18 @@
 
   .about-container .text-section p {
     font-size: 18px;
-    color: #666;
+    color: #595959;
     margin-bottom: 20px;
   }
 
   .about-container .stat p {
     font-size: 16px;
-    color: #666;
+    color: #595959;
   }
 
   .about-container .text-section p:first-child {
     font-size: 14px;
-    color: #00d85e;
+    color: #005E24;
   }
 
   .about-container .text-section .btn:hover {
@@ -534,7 +534,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(2) strong {
-    color: #fe7757;
+    color: #91412E;
   }
 
   .about-container .stats-section .stat:nth-child(3) {
@@ -544,7 +544,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(3) strong {
-    color: #ffd541;
+    color: #846D1D;
   }
 
   .about-container .stats-section .stat:nth-child(4) {
@@ -554,7 +554,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(4) strong {
-    color: #5ec2e4;
+    color: #2B5F72;
   }
 
   #digital-brands {
@@ -564,7 +564,7 @@
   }
 
   #digital-brands p {
-    color: #7635f3;
+    color: #622BCD;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -601,7 +601,7 @@
   #digital-brands .projects .project h1 {
     font-size: 1.25rem;
     margin-bottom: 15px;
-    color: #888;
+    color: #4B4B4B;
     text-align: left;
     margin-left: 40px;
   }
@@ -623,7 +623,7 @@
 
   #insights p {
     text-align: center;
-    color: #00d85e;
+    color: #005E24;
   }
 
   #insights .blog-posts {
@@ -662,7 +662,7 @@
   #insights .blog-posts .blog-post p {
     font-size: 10px;
     text-align: left;
-    color: #666;
+    color: #595959;
   }
 
   #insights .btn {
@@ -670,8 +670,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color: white;
-    border: #7635f3 solid 2px;
-    color: #7635f3;
+    border: #692ED9 solid 2px;
+    color: #692ED9;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -799,7 +799,7 @@
   .skip-link:focus {
     top: 0; 
     background-color: #00d85e;
-    color: white;
+    color: #2F2F2F;
   }
   
 
@@ -863,12 +863,12 @@
 
   .hero-content p {
     font-size: 13px;
-    color: #666;
+    color: #4B4B4B;
   }
 
   .services-description p {
     font-size: 18px;
-    color: #666;
+    color: #595959;
     margin-bottom: 20px;
   }
 
@@ -984,7 +984,7 @@
 
   .main-header .extras .btn {
     background-color: #00d85e;
-    color: white;
+    color: #2F2F2F;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
@@ -994,7 +994,7 @@
   }
 
   .about-container .text-section .btn {
-    background-color: #7635f3;
+    background-color: #692ED9;
     color: white;
     padding: 10px 20px;
     margin-top: 100px;
@@ -1031,7 +1031,7 @@
   }
 
   .hero-buttons .btn-green {
-    color: #00d85e;
+    color: #02572C;
   }
 
   .hero-image {
@@ -1120,7 +1120,7 @@
   }
 
   .services-description h1 {
-    color: #00d85e;
+    color: #005E24;
     font-size: 1.5em;
   }
 
@@ -1185,7 +1185,7 @@
 
   .achievements-container .text-content h2 {
     font-size: 16px;
-    color: #8e5ff4;
+    color: #5C3CA1;
     margin-bottom: 10px;
   }
 
@@ -1219,7 +1219,7 @@
 
   .achievements-container .stat p {
     font-size: 16px;
-    color: #666;
+    color: #595959;
   }
 
   .achievements-container .image-content {
@@ -1276,18 +1276,18 @@
 
   .about-container .text-section p {
     font-size: 18px;
-    color: #666;
+    color: #595959;
     margin-bottom: 20px;
   }
 
   .about-container .stat p {
     font-size: 16px;
-    color: #666;
+    color: #595959;
   }
 
   .about-container .text-section p:first-child {
     font-size: 14px;
-    color: #00d85e;
+    color: #005E24;
   }
 
   .about-container .text-section .btn:hover {
@@ -1338,7 +1338,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(2) strong {
-    color: #fe7757;
+    color: #91412E;
   }
 
   .about-container .stats-section .stat:nth-child(3) {
@@ -1348,7 +1348,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(3) strong {
-    color: #ffd541;
+    color: #846D1D;
   }
 
   .about-container .stats-section .stat:nth-child(4) {
@@ -1358,7 +1358,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(4) strong {
-    color: #5ec2e4;
+    color: #2B5F72;
   }
 
   #digital-brands {
@@ -1368,7 +1368,7 @@
   }
 
   #digital-brands p {
-    color: #7635f3;
+    color: #622BCD;
     text-align: center;
   }
 
@@ -1401,7 +1401,7 @@
   #digital-brands .projects .project h1 {
     font-size: 1.25rem;
     margin-bottom: 15px;
-    color: #888;
+    color: #4B4B4B;
     text-align: left;
     margin-left: 20px;
   }
@@ -1423,7 +1423,7 @@
 
   #insights p {
     text-align: center;
-    color: #00d85e;
+    color: #005E24;
   }
 
   #insights .blog-posts {
@@ -1461,7 +1461,7 @@
   #insights .blog-posts .blog-post p {
     font-size: 10px;
     text-align: left;
-    color: #666;
+    color: #595959;
   }
 
   #insights .btn {
@@ -1469,8 +1469,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color: white;
-    border: #7635f3 solid 2px;
-    color: #7635f3;
+    border: #692ED9 solid 2px;
+    color: #692ED9;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -1604,7 +1604,7 @@
   .skip-link:focus {
     top: 0; 
     background-color: #00d85e;
-    color: white;
+    color: #2F2F2F;
   }
 
 
@@ -1668,12 +1668,12 @@
 
   .hero-content p {
     font-size: 13px;
-    color: #666;
+    color: #4B4B4B;
   }
 
   .services-description p {
     font-size: 18px;
-    color: #666;
+    color: #595959;
     margin-bottom: 20px;
   }
 
@@ -1790,7 +1790,7 @@
 
   .main-header .extras .btn {
     background-color: #00d85e;
-    color: white;
+    color: #2F2F2F;
     text-decoration: none;
     padding: 15px;
     border-radius: 5px;
@@ -1800,7 +1800,7 @@
   }
 
   .about-container .text-section .btn {
-    background-color: #7635f3;
+    background-color: #692ED9;
     color: white;
     padding: 10px 20px;
     margin-top: 100px;
@@ -1838,7 +1838,7 @@
   }
 
   .hero-buttons .btn-green {
-    color: #00d85e;
+    color: #02572C;
   }
 
   .hero-image {
@@ -1927,7 +1927,7 @@
   }
 
   .services-description h1 {
-    color: #00d85e;
+    color: #005E24;
     font-size: 1.5em;
   }
 
@@ -1988,7 +1988,7 @@
 
   .achievements-container .text-content h2 {
     font-size: 16px;
-    color: #8e5ff4;
+    color: #5C3CA1;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -2025,7 +2025,7 @@
 
   .achievements-container .stat p {
     font-size: 16px;
-    color: #666;
+    color: #595959;
   }
 
   .project img {
@@ -2078,18 +2078,18 @@
 
   .about-container .text-section p {
     font-size: 18px;
-    color: #666;
+    color: #595959;
     margin-bottom: 20px;
   }
 
   .about-container .stat p {
     font-size: 16px;
-    color: #666;
+    color: #595959;
   }
 
   .about-container .text-section p:first-child {
     font-size: 14px;
-    color: #00d85e;
+    color: #005E24;
   }
 
   .about-container .text-section .btn:hover {
@@ -2140,7 +2140,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(2) strong {
-    color: #fe7757;
+    color: #91412E;
   }
 
   .about-container .stats-section .stat:nth-child(3) {
@@ -2150,7 +2150,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(3) strong {
-    color: #ffd541;
+    color: #846D1D;
   }
 
   .about-container .stats-section .stat:nth-child(4) {
@@ -2160,7 +2160,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(4) strong {
-    color: #5ec2e4;
+    color: #2B5F72;
   }
 
   #digital-brands {
@@ -2170,7 +2170,7 @@
   }
 
   #digital-brands p {
-    color: #7635f3;
+    color: #622BCD;
     text-align: center;
   }
 
@@ -2203,7 +2203,7 @@
   #digital-brands .projects .project h1{
     font-size: 1.25rem;
     margin-bottom: 15px;
-    color: #888;
+    color: #4B4B4B;
     text-align: left;
     margin-left: 20px;
   }
@@ -2225,7 +2225,7 @@
 
   #insights p {
     text-align: center;
-    color: #00d85e;
+    color: #005E24;
   }
 
   #insights .blog-posts {
@@ -2263,7 +2263,7 @@
   #insights .blog-posts .blog-post p {
     font-size: 10px;
     text-align: left;
-    color: #666;
+    color: #595959;
   }
 
   #insights .btn {
@@ -2271,8 +2271,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color: white;
-    border: #7635f3 solid 2px;
-    color: #7635f3;
+    border: #692ED9 solid 2px;
+    color: #692ED9;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -2406,7 +2406,7 @@
   .skip-link:focus {
     top: 0; 
     background-color: #00d85e;
-    color: white;
+    color: #2F2F2F;
   }
 
 
@@ -2470,12 +2470,12 @@
 
   .hero-content p {
     font-size: 13px;
-    color: #666;
+    color: #4B4B4B;
   }
 
   .services-description p {
     font-size: 18px;
-    color: #666;
+    color: #595959;
     margin-bottom: 20px;
   }
 
@@ -2591,7 +2591,7 @@
 
   .main-header .extras .btn {
     background-color: #00d85e;
-    color: white;
+    color: #2F2F2F;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
@@ -2601,7 +2601,7 @@
   }
 
   .about-container .text-section .btn {
-    background-color: #7635f3;
+    background-color: #692ED9;
     color: white;
     padding: 10px 20px;
     margin-top: 100px;
@@ -2639,7 +2639,7 @@
   }
 
   .hero-buttons .btn-green {
-    color: #00d85e;
+    color: #02572C;
   }
 
   .hero-image {
@@ -2731,7 +2731,7 @@
   }
 
   .services-description h1 {
-    color: #00d85e;
+    color: #005E24;
     font-size: 1.5em;
   }
 
@@ -2792,7 +2792,7 @@
 
   .achievements-container .text-content h2 {
     font-size: 16px;
-    color: #8e5ff4;
+    color: #5C3CA1;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -2829,7 +2829,7 @@
 
   .achievements-container .stat p {
     font-size: 16px;
-    color: #666;
+    color: #595959;
   }
 
   .project img {
@@ -2882,18 +2882,18 @@
 
   .about-container .text-section p {
     font-size: 18px;
-    color: #666;
+    color: #595959;
     margin-bottom: 20px;
   }
 
   .about-container .stat p {
     font-size: 16px;
-    color: #666;
+    color: #595959;
   }
 
   .about-container .text-section p:first-child {
     font-size: 14px;
-    color: #00d85e;
+    color: #005E24;
   }
 
   .about-container .text-section .btn:hover {
@@ -2944,7 +2944,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(2) strong {
-    color: #fe7757;
+    color: #91412E;
   }
 
   .about-container .stats-section .stat:nth-child(3) {
@@ -2954,7 +2954,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(3) strong {
-    color: #ffd541;
+    color: #846D1D;
   }
 
   .about-container .stats-section .stat:nth-child(4) {
@@ -2964,7 +2964,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(4) strong {
-    color: #5ec2e4;
+    color: #2B5F72;
   }
 
   #digital-brands {
@@ -2974,7 +2974,7 @@
   }
 
   #digital-brands p {
-    color: #7635f3;
+    color: #622BCD;
     text-align: center;
   }
 
@@ -3029,7 +3029,7 @@
 
   #insights p {
     text-align: center;
-    color: #00d85e;
+    color: #005E24;
   }
 
   #insights .blog-posts {
@@ -3067,7 +3067,7 @@
   #insights .blog-posts .blog-post p {
     font-size: 10px;
     text-align: left;
-    color: #666;
+    color: #595959;
   }
 
   #insights .btn {
@@ -3075,8 +3075,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color: white;
-    border: #7635f3 solid 2px;
-    color: #7635f3;
+    border: #692ED9 solid 2px;
+    color: #692ED9;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -3204,7 +3204,7 @@
   
   .skip-link:focus {
     top: 0; 
-    background-color: #00d85e;
+    background-color: #005E24;
     color: white;
   }
   
@@ -3270,12 +3270,12 @@
 
   .hero-content p {
     font-size: 13px;
-    color: #666;
+    color: #4B4B4B;
   }
 
   .services-description p {
     font-size: 18px;
-    color: #666;
+    color: #595959;
     margin-bottom: 15px;
   }
 
@@ -3392,7 +3392,7 @@
 
   .main-header .extras .btn {
     background-color: #00d85e;
-    color: white;
+    color: #2F2F2F;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
@@ -3402,7 +3402,7 @@
   }
 
   .about-container .text-section .btn {
-    background-color: #7635f3;
+    background-color: #692ED9;
     color: white;
     padding: 10px 20px;
     margin-top: 100px;
@@ -3440,7 +3440,7 @@
   }
 
   .hero-buttons .btn-green {
-    color: #00d85e;
+    color: #02572C;
   }
 
   .hero-image {
@@ -3531,7 +3531,7 @@
   }
 
   .services-description h1 {
-    color: #00d85e;
+    color: #005E24;
     font-size: 18px;
   }
 
@@ -3596,7 +3596,7 @@
   }
 
   .achievements-container .text-content h2 {
-    color: #8e5ff4;
+    color: #5C3CA1;
     margin-bottom: 10px;
     font-size: 15px;
     text-align: center;
@@ -3636,7 +3636,7 @@
 
   .achievements-container .stat p {
     font-size: 16px;
-    color: #666;
+    color: #595959;
   }
 
   .project img {
@@ -3689,18 +3689,18 @@
 
   .about-container .text-section p {
     font-size: 18px;
-    color: #666;
+    color: #595959;
     margin-bottom: 20px;
   }
 
   .about-container .stat p {
     font-size: 16px;
-    color: #666;
+    color: #595959;
   }
 
   .about-container .text-section p:first-child {
     font-size: 14px;
-    color: #00d85e;
+    color: #005E24;
   }
 
   .about-container .text-section .btn:hover {
@@ -3749,7 +3749,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(2) strong {
-    color: #fe7757;
+    color: #91412E;
   }
 
   .about-container .stats-section .stat:nth-child(3) {
@@ -3757,7 +3757,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(3) strong {
-    color: #ffd541;
+    color: #846D1D;
   }
 
   .about-container .stats-section .stat:nth-child(4) {
@@ -3765,7 +3765,7 @@
   }
 
   .about-container .stats-section .stat:nth-child(4) strong {
-    color: #5ec2e4;
+    color: #2B5F72;
   }
 
   #digital-brands {
@@ -3775,7 +3775,7 @@
   }
 
   #digital-brands p {
-    color: #7635f3;
+    color: #622BCD;
     text-align: center;
   }
 
@@ -3829,7 +3829,7 @@
 
   #insights p {
     text-align: center;
-    color: #00d85e;
+    color: #005E24;
   }
 
   #insights .blog-posts {
@@ -3867,7 +3867,7 @@
   #insights .blog-posts .blog-post p {
     font-size: 10px;
     text-align: left;
-    color: #666;
+    color: #595959;
   }
 
   #insights .btn {
@@ -3875,8 +3875,8 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color: white;
-    border: #7635f3 solid 2px;
-    color: #7635f3;
+    border: #692ED9 solid 2px;
+    color: #692ED9;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -4003,7 +4003,7 @@
   
   .skip-link:focus {
     top: 0; 
-    background-color: #00d85e;
+    background-color: #005E24;
     color: white;
   }
   
