@@ -11,45 +11,47 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Saltar al contenido</a>
+
     <header>
       <section class="top-bar">
-        <nav class="contact-info">
+        <nav class="contact-info" aria-label="Contact information">
           <p>📞 +1 212 946 2700</p>
-          <a href="#help-center">Help Center</a>
-          <a href="#docs">Docs</a>
+          <a href="javascript:void(0)">Help Center</a>
+          <a href="javascript:void(0)">Docs</a>
         </nav>
-        <nav class="social-icons">
-          <i class="bi bi-facebook"></i>
-          <i class="bi bi-twitter"></i>
-          <i class="bi bi-instagram"></i>
-          <i class="bi bi-globe"></i>
+        <nav class="social-icons" aria-label="Social media links">
+          <i class="bi bi-facebook" aria-label="Facebook"></i>
+          <i class="bi bi-twitter" aria-label="Twitter"></i>
+          <i class="bi bi-instagram" aria-label="Instagram"></i>
+          <i class="bi bi-globe" aria-label="Website"></i>
         </nav>
       </section>
       <div class="main-header">
         <div class="logo">
           <img src="image/logo.png" alt="Logotipo de la empresa" />
         </div>
-        <nav>
+        <nav aria-label="Main navigation">
           <ul>
-            <li><a href="#inicio">Home</a></li>
-            <li><a href="#sobre-nosotros">About</a></li>
-            <li><a href="#servicios">Services</a></li>
-            <li><a href="#precios">Pricing</a></li>
-            <li><a href="#productos">Products</a></li>
-            <li><a href="#recursos">Resources</a></li>
+            <li><a href="javascript:void(0)">Home</a></li>
+            <li><a href="javascript:void(0)">About</a></li>
+            <li><a href="javascript:void(0)">Services</a></li>
+            <li><a href="javascript:void(0)">Pricing</a></li>
+            <li><a href="javascript:void(0)">Products</a></li>
+            <li><a href="javascript:void(0)">Resources</a></li>
           </ul>
         </nav>
         <div class="extras">
-          <i class="bi bi-list"></i>
-          <i class="bi bi-bag"></i>
-          <i class="bi bi-search"></i>
-          <a href="#contacto" class="btn">Contáctanos</a>
+          <i class="bi bi-list" aria-label="Menu"></i>
+          <i class="bi bi-bag" aria-label="Cart"></i>
+          <i class="bi bi-search" aria-label="Search"></i>
+          <a href="javascript:void(0)" class="btn">Contáctanos</a>
         </div>
       </div>
     </header>
-    <main>
+    <main id="main-content">
       <section id="hero">
-        <article class="hero-content">
+        <article class="hero-content" aria-label="hero-title">
           <h1>Driving meaningful change through technology & design</h1>
           <p>
             Crafting delightful experiences through meticulous attention to
@@ -57,8 +59,8 @@
             serving as the management team.
           </p>
           <div class="hero-buttons">
-            <a href="#latest-projects" class="btn">Latest Projects</a>
-            <a href="#watch-reel" class="btn btn-green">Watch Reel</a>
+            <a href="javascript:void(0)" class="btn">Latest Projects</a>
+            <a href="javascript:void(0)" class="btn btn-green">Watch Reel</a>
           </div>
         </article>
         <div class="hero-image">
@@ -68,38 +70,41 @@
 
       <section id="services" class="services-section">
         <div class="services-grid">
-          <article class="service-card">
-            <div class="icon"><i class="bi bi-eye"></i></div>
-            <h5>UX Design</h5>
+          <article class="service-card" aria-label="ux-design">
+            <div class="icon"><i class="bi bi-eye" aria-label="eye"></i></div>
+            <h1>UX Design</h1>
             <p>
               Our collaborative approach builds brands and apps worth talking
               about.
             </p>
-            <p><i class="bi bi-arrow-right"></i></p>
+            <p><i class="bi bi-arrow-right" aria-label="arrow-right"></i></p>
           </article>
 
-          <article class="service-card">
-            <div class="icon"><i class="bi bi-laptop"></i></div>
-            <h5>Development</h5>
+          <article class="service-card" aria-label="development">
+            <div class="icon"><i class="bi bi-laptop" aria-label="laptop"></i></div>
+            <h1>Development</h1>
             <p>
               Our collaborative approach builds brands and apps worth talking
               about.
             </p>
-            <p><i class="bi bi-arrow-right"></i></p>
+            <p><i class="bi bi-arrow-right" aria-label="arrow-right"></i></p>
           </article>
 
-          <article class="service-card">
-            <div class="icon"><i class="bi bi-lightning"></i></div>
-            <h5>Branding</h5>
+          <article class="service-card" aria-label="branding">
+            <div class="icon"><i class="bi bi-lightning" aria-label="lightning"></i></div>
+            <h1>Branding</h1>
             <p>
               Our collaborative approach builds brands and apps worth talking
               about.
             </p>
-            <p><i class="bi bi-arrow-right"></i></p>
+            <p><i class="bi bi-arrow-right" aria-label="arrow-right"></i></p>
           </article>
 
-          <article class="services-description">
-            <h3>Cutting-edge brand experiences for companies</h3>
+          <article
+            class="services-description"
+            aria-label="services-description"
+          >
+            <h1>Cutting-edge brand experiences for companies</h1>
             <h2>Digital creators & Strategists</h2>
             <p>
               We value our craft, have a deep passion for progression, and exist
@@ -169,7 +174,7 @@
               create brand experiences that feel familiar yet new. They have to
               resonate.
             </p>
-            <a href="#our-work" class="btn">Our Work</a>
+            <a href="javascript:void(0)" class="btn">Our Work</a>
           </div>
           <div class="stats-section">
             <div class="stat">
@@ -196,27 +201,27 @@
         <p>WITH KNOWLEDGE HEART & PASSION</p>
         <h1>We build brands for a digital world</h1>
         <div class="projects">
-          <article class="project">
+          <article class="project" aria-label="project1">
             <img
               src="image/dbrand/image1.png"
               alt="SEO Project Management Tool"
             />
-            <h5>Marketing</h5>
+            <h1>Marketing</h1>
             <h2>Marketing: SEO Project Management Tool</h2>
           </article>
-          <article class="project">
+          <article class="project" aria-label="project2">
             <img src="image/dbrand/image2.png" alt="Desktop Sign Up Flow" />
-            <h5>UI Design</h5>
+            <h1>UI Design</h1>
             <h2>UI Design: Desktop Sign Up Flow</h2>
           </article>
-          <article class="project">
+          <article class="project" aria-label="project3">
             <img src="image/dbrand/image3.png" alt="Developers Working Hard" />
-            <h5>UI Design</h5>
+            <h1>UI Design</h1>
             <h2>UI Design: Developers Working Hard</h2>
           </article>
-          <article class="project">
+          <article class="project" aria-label="project4">
             <img src="image/dbrand/image4.png" alt="CoinView Crypto App" />
-            <h5>Application</h5>
+            <h1>Application</h1>
             <h2>Application: CoinView Crypto App</h2>
           </article>
         </div>
@@ -279,7 +284,7 @@
             </div>
           </div>
         </div>
-        <a href="#all-posts" class="btn">View All Posts</a>
+        <a href="javascript:void(0)" class="btn">View All Posts</a>
       </section>
     </main>
 
@@ -292,43 +297,47 @@
             experiences.
           </p>
           <div class="footer-social">
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="javascript:void(0)"><i class="bi bi-twitter" aria-label="Twitter"></i></a>
+            <a href="javascript:void(0)"><i class="bi bi-facebook" aria-label="Facebook"></i></a>
+            <a href="javascript:void(0)"><i class="bi bi-instagram" aria-label="Instagram"></i></a>
           </div>
         </div>
         <div class="footer-links">
           <div class="footer-column">
             <h3>About</h3>
             <ul>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
+              <li><a href="javascript:void(0)">Services</a></li>
+              <li><a href="javascript:void(0)">Portfolio</a></li>
+              <li><a href="javascript:void(0)">About</a></li>
+              <li><a href="javascript:void(0)">Blog</a></li>
             </ul>
           </div>
           <div class="footer-column">
             <h3>Products</h3>
             <ul>
-              <li><a href="#">Platform</a></li>
-              <li><a href="#">Customers</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Pricing</a></li>
+              <li><a href="javascript:void(0)">Platform</a></li>
+              <li><a href="javascript:void(0)">Customers</a></li>
+              <li><a href="javascript:void(0)">Products</a></li>
+              <li><a href="javascript:void(0)">Pricing</a></li>
             </ul>
           </div>
           <div class="footer-column">
             <h3>Resources</h3>
             <ul>
-              <li><a href="#">Training</a></li>
-              <li><a href="#">Marketplace</a></li>
-              <li><a href="#">Experts</a></li>
-              <li><a href="#">Guides</a></li>
+              <li><a href="javascript:void(0)">Training</a></li>
+              <li><a href="javascript:void(0)">Marketplace</a></li>
+              <li><a href="javascript:void(0)">Experts</a></li>
+              <li><a href="javascript:void(0)">Guides</a></li>
             </ul>
           </div>
           <div class="footer-column">
             <h3>Offices</h3>
             <ul>
-              <li><a href="#">New York, 112 W 34th St, Manhattan, USA</a></li>
+              <li>
+                <a href="javascript:void(0)"
+                  >New York, 112 W 34th St, Manhattan, USA</a
+                >
+              </li>
               <li><a href="tel:+12129462707">(212) 946-2707</a></li>
             </ul>
           </div>
