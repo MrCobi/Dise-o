@@ -1,4 +1,34 @@
 /* Ordenador */
+/* CSS global */
+:root {
+  /* Variables */
+
+  /* Estilos :root */
+}
+
+body {
+
+}
+
+p {}
+
+a {
+}
+
+/****************************************/
+header {
+
+}
+
+#hero {
+  
+}
+
+#services {
+  
+}
+
+
 @media only screen and (width >= 1062px) {
   body {
     font-family: Arial, sans-serif;
@@ -1550,7 +1580,7 @@
 }
 
 /* Móvil */
-@media only screen and (width >= 661px) and (width <= 768px) {
+@media (width >= 661px) and (width <= 768px) {
   body {
     font-family: Arial, sans-serif;
     margin: 0;
