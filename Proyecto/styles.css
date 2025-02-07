@@ -87,10 +87,7 @@ header {
     color: #00d85e;
   }
 
-  .hero-content p {
-    font-size: 18px;
-    color: #666;
-  }
+  
 
   .services-description p {
     font-size: 20px;
@@ -111,18 +108,7 @@ header {
     transition: color 0.3s;
   }
 
-  .hero-buttons .btn {
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    background: none;
-    border-radius: 5px;
-  }
 
-  .hero-buttons .btn:hover {
-    background: none;
-    color: #017b35;
-  }
 
   .main-header {
     display: flex;
@@ -142,10 +128,7 @@ header {
     border-radius: 10px;
   }
 
-  .hero-image img {
-    max-width: 100%;
-    height: auto;
-  }
+
 
   .project img {
     max-width: 100%;
@@ -225,28 +208,53 @@ header {
     align-items: center;
     padding: 50px;
     background-color: #f7f4fb;
+
+    .hero-content p {
+      font-size: 18px;
+      color: #666;
+    }
+
+    .hero-buttons .btn {
+      color: black;
+      padding: 10px 20px;
+      text-decoration: none;
+      background: none;
+      border-radius: 5px;
+    }
+  
+    .hero-buttons .btn:hover {
+      background: none;
+      color: #017b35;
+    }
+
+    .hero-image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .hero-content {
+      max-width: 50%;
+      margin-left: 180px;
+    }
+  
+    .hero-content h1 {
+      font-size: 36px;
+      color: #333;
+    }
+  
+    .hero-buttons .btn-green {
+      color: #00d85e;
+    }
+  
+    .hero-image {
+      max-width: 50%;
+      min-width: 20%;
+      text-align: center;
+      margin-right: 180px;
+    }
   }
 
-  .hero-content {
-    max-width: 50%;
-    margin-left: 180px;
-  }
-
-  .hero-content h1 {
-    font-size: 36px;
-    color: #333;
-  }
-
-  .hero-buttons .btn-green {
-    color: #00d85e;
-  }
-
-  .hero-image {
-    max-width: 50%;
-    min-width: 20%;
-    text-align: center;
-    margin-right: 180px;
-  }
+ 
 
   .services-grid {
     display: grid;
@@ -865,10 +873,7 @@ header {
     color: #00d85e;
   }
 
-  .hero-content p {
-    font-size: 13px;
-    color: #666;
-  }
+  
 
   .services-description p {
     font-size: 18px;
@@ -889,19 +894,7 @@ header {
     transition: color 0.3s;
   }
 
-  .hero-buttons .btn {
-    color: black;
-    font-size: 14px;
-    padding: 10px 20px;
-    text-decoration: none;
-    background: none;
-    border-radius: 5px;
-  }
 
-  .hero-buttons .btn:hover {
-    background: none;
-    color: #017b35;
-  }
 
   .main-header {
     display: flex;
@@ -980,31 +973,59 @@ header {
     padding-bottom: 10%;
     background-color: #f7f4fb;
     height: 100%;
+
+    .hero-content p {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .hero-buttons .btn {
+      color: black;
+      font-size: 14px;
+      padding: 10px 20px;
+      text-decoration: none;
+      background: none;
+      border-radius: 5px;
+    }
+  
+    .hero-buttons .btn:hover {
+      background: none;
+      color: #017b35;
+    }
+
+    .hero-content {
+      max-width: 50%;
+      width: 100vw;
+      margin-left: 11%;
+      box-sizing: border-box;
+      position: relative;
+    }
+  
+    .hero-content h1 {
+      font-size: 30px;
+      color: #333;
+    }
+  
+    .hero-buttons .btn-green {
+      color: #00d85e;
+    }
+  
+    .hero-image {
+      max-width: 50%;
+      min-width: 30%;
+      text-align: center;
+      margin-right: 120px;
+    }
+
+    .hero-image img {
+      max-width: 80%;
+      height: auto;
+      display: block;
+    }
+  
   }
 
-  .hero-content {
-    max-width: 50%;
-    width: 100vw;
-    margin-left: 11%;
-    box-sizing: border-box;
-    position: relative;
-  }
 
-  .hero-content h1 {
-    font-size: 30px;
-    color: #333;
-  }
-
-  .hero-buttons .btn-green {
-    color: #00d85e;
-  }
-
-  .hero-image {
-    max-width: 50%;
-    min-width: 30%;
-    text-align: center;
-    margin-right: 120px;
-  }
 
   figure img {
     max-width: 50%;
@@ -1012,11 +1033,6 @@ header {
     border-radius: 10px;
   }
 
-  .hero-image img {
-    max-width: 80%;
-    height: auto;
-    display: block;
-  }
 
   .services-grid {
     display: grid;
@@ -1640,10 +1656,7 @@ header {
     color: #00d85e;
   }
 
-  .hero-content p {
-    font-size: 13px;
-    color: #666;
-  }
+ 
 
   .services-description p {
     font-size: 18px;
@@ -1664,19 +1677,7 @@ header {
     transition: color 0.3s;
   }
 
-  .hero-buttons .btn {
-    color: black;
-    font-size: 14px;
-    padding: 10px 20px;
-    text-decoration: none;
-    background: none;
-    border-radius: 5px;
-  }
 
-  .hero-buttons .btn:hover {
-    background: none;
-    color: #017b35;
-  }
 
   .main-header {
     display: flex;
@@ -1757,31 +1758,58 @@ header {
     background-color: #f7f4fb;
     height: 100%;
     width: 100%;
+
+    .hero-content p {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .hero-buttons .btn {
+      color: black;
+      font-size: 14px;
+      padding: 10px 20px;
+      text-decoration: none;
+      background: none;
+      border-radius: 5px;
+    }
+  
+    .hero-buttons .btn:hover {
+      background: none;
+      color: #017b35;
+    }
+
+    .hero-content {
+      max-width: 50%;
+      width: 100vw;
+      margin-left: 11%;
+      box-sizing: border-box;
+      position: relative;
+    }
+  
+    .hero-content h1 {
+      font-size: 30px;
+      color: #333;
+    }
+  
+    .hero-buttons .btn-green {
+      color: #00d85e;
+    }
+  
+    .hero-image {
+      max-width: 50%;
+      min-width: 30%;
+      text-align: center;
+      margin-right: 120px;
+    }
+
+    .hero-image img {
+      max-width: 80%;
+      height: auto;
+      display: block;
+    }
   }
 
-  .hero-content {
-    max-width: 50%;
-    width: 100vw;
-    margin-left: 11%;
-    box-sizing: border-box;
-    position: relative;
-  }
-
-  .hero-content h1 {
-    font-size: 30px;
-    color: #333;
-  }
-
-  .hero-buttons .btn-green {
-    color: #00d85e;
-  }
-
-  .hero-image {
-    max-width: 50%;
-    min-width: 30%;
-    text-align: center;
-    margin-right: 120px;
-  }
+  
 
   figure img {
     max-width: 50%;
@@ -1789,11 +1817,7 @@ header {
     border-radius: 10px;
   }
 
-  .hero-image img {
-    max-width: 80%;
-    height: auto;
-    display: block;
-  }
+
 
   .services-grid {
     display: grid;
@@ -2412,10 +2436,7 @@ header {
     color: #00d85e;
   }
 
-  .hero-content p {
-    font-size: 13px;
-    color: #666;
-  }
+
 
   .services-description p {
     font-size: 18px;
@@ -2436,19 +2457,7 @@ header {
     transition: color 0.3s;
   }
 
-  .hero-buttons .btn {
-    color: black;
-    font-size: 14px;
-    padding: 10px;
-    text-decoration: none;
-    background: none;
-    border-radius: 5px;
-  }
 
-  .hero-buttons .btn:hover {
-    background: none;
-    color: #017b35;
-  }
 
   .main-header {
     display: flex;
@@ -2529,30 +2538,57 @@ header {
     background-color: #f7f4fb;
     height: 100%;
     width: 100%;
+
+    .hero-content p {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .hero-buttons .btn {
+      color: black;
+      font-size: 14px;
+      padding: 10px;
+      text-decoration: none;
+      background: none;
+      border-radius: 5px;
+    }
+  
+    .hero-buttons .btn:hover {
+      background: none;
+      color: #017b35;
+    }
+
+    .hero-content {
+      order: 2;
+      margin-left: 11%;
+      box-sizing: border-box;
+      position: relative;
+    }
+  
+    .hero-content h1 {
+      font-size: 33px;
+      color: #333;
+    }
+  
+    .hero-buttons .btn-green {
+      color: #00d85e;
+    }
+  
+    .hero-image {
+      order: 1;
+      max-width: 40%;
+      min-width: 30%;
+      text-align: center;
+    }
+
+    .hero-image img {
+      max-width: 80%;
+      height: auto;
+      display: block;
+    }
   }
 
-  .hero-content {
-    order: 2;
-    margin-left: 11%;
-    box-sizing: border-box;
-    position: relative;
-  }
-
-  .hero-content h1 {
-    font-size: 33px;
-    color: #333;
-  }
-
-  .hero-buttons .btn-green {
-    color: #00d85e;
-  }
-
-  .hero-image {
-    order: 1;
-    max-width: 40%;
-    min-width: 30%;
-    text-align: center;
-  }
+  
 
   figure img {
     max-width: 50%;
@@ -2560,11 +2596,7 @@ header {
     border-radius: 10px;
   }
 
-  .hero-image img {
-    max-width: 80%;
-    height: auto;
-    display: block;
-  }
+ 
 
   .services-grid {
     display: grid;
@@ -3181,10 +3213,7 @@ header {
     color: #00d85e;
   }
 
-  .hero-content p {
-    font-size: 13px;
-    color: #666;
-  }
+
 
   .services-description p {
     font-size: 18px;
@@ -3205,19 +3234,6 @@ header {
     transition: color 0.3s;
   }
 
-  .hero-buttons .btn {
-    color: black;
-    font-size: 14px;
-    padding: 10px 20px;
-    text-decoration: none;
-    background: none;
-    border-radius: 5px;
-  }
-
-  .hero-buttons .btn:hover {
-    background: none;
-    color: #017b35;
-  }
 
   .main-header {
     display: flex;
@@ -3300,29 +3316,57 @@ header {
     background-color: #f7f4fb;
     height: 100%;
     width: 100%;
+
+    .hero-content p {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .hero-buttons .btn {
+      color: black;
+      font-size: 14px;
+      padding: 10px 20px;
+      text-decoration: none;
+      background: none;
+      border-radius: 5px;
+    }
+  
+    .hero-buttons .btn:hover {
+      background: none;
+      color: #017b35;
+    }
+
+    .hero-content {
+      order: 2;
+      margin-left: 11%;
+      box-sizing: border-box;
+      position: relative;
+    }
+  
+    .hero-content h1 {
+      font-size: 20px;
+      color: #333;
+    }
+  
+    .hero-buttons .btn-green {
+      color: #00d85e;
+    }
+  
+    .hero-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-image img {
+      max-width: 80%;
+      height: auto;
+      display: block;
+    }
+  
   }
 
-  .hero-content {
-    order: 2;
-    margin-left: 11%;
-    box-sizing: border-box;
-    position: relative;
-  }
-
-  .hero-content h1 {
-    font-size: 20px;
-    color: #333;
-  }
-
-  .hero-buttons .btn-green {
-    color: #00d85e;
-  }
-
-  .hero-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
 
   figure img {
     max-width: 50%;
@@ -3330,11 +3374,7 @@ header {
     border-radius: 10px;
   }
 
-  .hero-image img {
-    max-width: 80%;
-    height: auto;
-    display: block;
-  }
+  
 
   .services-grid {
     display: grid;
