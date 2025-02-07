@@ -7,27 +7,23 @@
 }
 
 body {
-
 }
 
-p {}
+p {
+}
 
 a {
 }
 
 /****************************************/
 header {
-
 }
 
 #hero {
-  
 }
 
 #services {
-  
 }
-
 
 @media only screen and (width >= 1062px) {
   body {
@@ -45,17 +41,43 @@ header {
     padding: 10px 0;
     border-bottom: 2px solid #ddd;
     height: 20px;
-  }
 
-  .top-bar .contact-info {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 30px;
+    .contact-info {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+    }
+
+    .contact-info p,
+    .contact-info a {
+      font-size: 14px;
+      color: #333;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      padding: 0 10px;
+      text-decoration: none;
+      margin: 0;
+    }
+
+    .nav.social-icons {
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    nav.social-icons i {
+      margin-left: 10px;
+      font-size: 18px;
+      color: #656464;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      padding: 0 10px;
+    }
   }
 
   nav ul li a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s;
@@ -111,37 +133,11 @@ header {
     font-size: 0.9rem;
   }
 
-  .top-bar .contact-info p,
-  .top-bar .contact-info a {
-    font-size: 14px;
-    color: #333;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    padding: 0 10px;
-    text-decoration: none;
-    margin: 0;
-  }
-
-  .top-bar nav.social-icons {
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-
   .main-header .extras i {
     font-size: 18px;
     color: black;
     cursor: pointer;
     transition: color 0.3s;
-  }
-
-  .top-bar nav.social-icons i {
-    margin-left: 10px;
-    font-size: 18px;
-    color: #656464;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    padding: 0 10px;
   }
 
   .hero-buttons .btn {
@@ -823,13 +819,39 @@ header {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
-  }
 
-  .top-bar .contact-info {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
+    .contact-info {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+    }
+
+    .contact-info p,
+    .contact-info a {
+      font-size: 14px;
+      color: #333;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      padding: 0 10px;
+      text-decoration: none;
+      margin: 0;
+    }
+
+    nav.social-icons {
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    nav.social-icons i {
+      margin-left: 3%;
+      font-size: 18px;
+      color: #656464;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      padding: 0 10px;
+    }
   }
 
   nav ul li a {
@@ -890,22 +912,6 @@ header {
     font-size: 0.9rem;
   }
 
-  .top-bar .contact-info p,
-  .top-bar .contact-info a {
-    font-size: 14px;
-    color: #333;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    padding: 0 10px;
-    text-decoration: none;
-    margin: 0;
-  }
-
-  .top-bar nav.social-icons {
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
 
   .main-header .extras i {
     font-size: 18px;
@@ -914,14 +920,7 @@ header {
     transition: color 0.3s;
   }
 
-  .top-bar nav.social-icons i {
-    margin-left: 3%;
-    font-size: 18px;
-    color: #656464;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    padding: 0 10px;
-  }
+
 
   .hero-buttons .btn {
     color: black;
@@ -1598,13 +1597,39 @@ header {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
-  }
 
-  .top-bar .contact-info {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
+    .contact-info {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+    }
+
+    .contact-info p,
+    .contact-info a {
+      font-size: 14px;
+      color: #333;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      padding: 0 10px;
+      text-decoration: none;
+      margin: 0;
+    }
+
+    nav.social-icons {
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    nav.social-icons i {
+      margin-left: 3%;
+      font-size: 18px;
+      color: #656464;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      padding: 0 10px;
+    }
   }
 
   nav ul li a {
@@ -1665,23 +1690,6 @@ header {
     font-size: 0.9rem;
   }
 
-  .top-bar .contact-info p,
-  .top-bar .contact-info a {
-    font-size: 14px;
-    color: #333;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    padding: 0 10px;
-    text-decoration: none;
-    margin: 0;
-  }
-
-  .top-bar nav.social-icons {
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-
   .main-header .extras i {
     font-size: 18px;
     color: black;
@@ -1689,14 +1697,7 @@ header {
     transition: color 0.3s;
   }
 
-  .top-bar nav.social-icons i {
-    margin-left: 3%;
-    font-size: 18px;
-    color: #656464;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    padding: 0 10px;
-  }
+
 
   .hero-buttons .btn {
     color: black;
@@ -2370,14 +2371,42 @@ header {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
+
+    .contact-info {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+    }
+
+    .contact-info p,
+    .contact-info a {
+      font-size: 14px;
+      color: #333;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      padding: 0 10px;
+      text-decoration: none;
+      margin: 0;
+    }
+
+    nav.social-icons {
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    nav.social-icons i {
+      margin-left: 3%;
+      font-size: 18px;
+      color: #656464;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      padding: 0 10px;
+    }
   }
 
-  .top-bar .contact-info {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-  }
+
 
   nav ul li a {
     color: black;
@@ -2437,22 +2466,9 @@ header {
     font-size: 0.9rem;
   }
 
-  .top-bar .contact-info p,
-  .top-bar .contact-info a {
-    font-size: 14px;
-    color: #333;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    padding: 0 10px;
-    text-decoration: none;
-    margin: 0;
-  }
+ 
 
-  .top-bar nav.social-icons {
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
+ 
 
   .main-header .extras i {
     font-size: 18px;
@@ -2461,14 +2477,7 @@ header {
     transition: color 0.3s;
   }
 
-  .top-bar nav.social-icons i {
-    margin-left: 3%;
-    font-size: 18px;
-    color: #656464;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    padding: 0 10px;
-  }
+
 
   .hero-buttons .btn {
     color: black;
@@ -3140,14 +3149,43 @@ header {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
+
+    .contact-info {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 5px;
+    }
+
+    .contact-info p,
+    .contact-info a {
+      font-size: 14px;
+      color: #333;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      padding: 0 10px;
+      text-decoration: none;
+      margin: 0;
+    }
+    nav.social-icons {
+      display: flex;
+      align-items: center;
+      margin-top: 8%;
+      text-align: center;
+    }
+
+    nav.social-icons i {
+      margin-left: 3%;
+      font-size: 18px;
+      color: #656464;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      padding: 0 10px;
+    }
+  
   }
 
-  .top-bar .contact-info {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 5px;
-  }
+ 
 
   nav ul li a {
     color: black;
@@ -3205,23 +3243,9 @@ header {
     font-size: 10px;
   }
 
-  .top-bar .contact-info p,
-  .top-bar .contact-info a {
-    font-size: 14px;
-    color: #333;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    padding: 0 10px;
-    text-decoration: none;
-    margin: 0;
-  }
+ 
 
-  .top-bar nav.social-icons {
-    display: flex;
-    align-items: center;
-    margin-top: 8%;
-    text-align: center;
-  }
+
 
   .main-header .extras i {
     font-size: 18px;
@@ -3230,14 +3254,6 @@ header {
     transition: color 0.3s;
   }
 
-  .top-bar nav.social-icons i {
-    margin-left: 3%;
-    font-size: 18px;
-    color: #656464;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    padding: 0 10px;
-  }
 
   .hero-buttons .btn {
     color: black;
