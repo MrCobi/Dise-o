@@ -25,7 +25,7 @@ header {
 #services {
 }
 
-@media only screen and (width >= 1062px) {
+
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -796,10 +796,10 @@ header {
       color: #ccc;
     }
   }
-}
+
 
 /* Tablets */
-@media only screen and (width >= 768px) and (width <= 1062px) {
+@media (width >= 768px) and (width <= 1062px) {
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -2358,7 +2358,7 @@ header {
 }
 
 /* Móvil  */
-@media only screen and (width >= 515px) and (width <= 660px) {
+@media (width >= 515px) and (width <= 660px) {
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -3122,7 +3122,7 @@ header {
 }
 
 /* Móvil Pequeño */
-@media only screen and (width <= 515px) {
+@media (width <= 515px) {
   body {
     font-family: Arial, sans-serif;
     margin: 0;

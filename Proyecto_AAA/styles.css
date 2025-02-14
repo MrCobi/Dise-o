@@ -1,5 +1,5 @@
 /* Ordenador */
-@media only screen and (width >= 1062px) {
+@media screen and (width >= 1062px) {
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -802,7 +802,7 @@
 }
 
 /* Tablets */
-@media only screen and (width >= 768px) and (width <= 1062px) {
+@media screen and (width >= 768px) and (width <= 1062px) {
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -1604,7 +1604,7 @@
 }
 
 /* Móvil */
-@media only screen and (width >= 661px) and (width <= 768px) {
+@media screen and (width >= 661px) and (width <= 768px) {
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -2403,7 +2403,7 @@
 }
 
 /* Móvil  */
-@media only screen and (width >= 515px) and (width <= 660px) {
+@media screen and (width >= 515px) and (width <= 660px) {
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -3199,7 +3199,7 @@
 }
 
 /* Móvil Pequeño */
-@media only screen and (width <= 515px) {
+@media screen and (width <= 515px) {
   body {
     font-family: Arial, sans-serif;
     margin: 0;
