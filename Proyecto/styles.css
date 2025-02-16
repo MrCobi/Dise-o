@@ -1020,9 +1020,29 @@ footer {
       max-width: 1200px;
       margin: 0 auto;
       text-align: center;
+    
+
+      /* Nuevo orden */
+      .image-content {
+        order: 1;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 30px;
+
+        img {
+          width: 100%;
+          max-width: 500px;
+          height: auto;
+          border-radius: 10px;
+          margin: 0 auto;
+        }
+      }
 
       .text-content {
-        max-width: 45%;
+        order: 2;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 30px;
 
         h2 {
           font-size: 16px;
@@ -1038,12 +1058,18 @@ footer {
       }
 
       .stats {
+        order: 3;
         display: flex;
+        flex-direction: column;
         gap: 20px;
+        width: 100%;
 
         .stat {
           padding: 20px;
           border-radius: 10px;
+          max-width: 500px;
+          margin: 0 auto;
+          flex: none !important;
 
           strong {
             display: block;
@@ -1056,16 +1082,6 @@ footer {
             font-size: 16px;
             color: #666;
           }
-        }
-      }
-
-      .image-content {
-        max-width: 40%;
-
-        img {
-          width: 100%;
-          height: auto;
-          border-radius: 10px;
         }
       }
     }
