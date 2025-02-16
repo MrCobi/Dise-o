@@ -2610,19 +2610,21 @@ footer {
         padding: 20px;
         border-radius: 10px;
         text-align: center;
+
+         strong {
+          display: block;
+          font-size: 24px;
+          color: #333;
+          margin-bottom: 10px;
+        }
+  
+         p {
+          font-size: 16px;
+          color: #666;
+        }
       }
 
-      .stat strong {
-        display: block;
-        font-size: 24px;
-        color: #333;
-        margin-bottom: 10px;
-      }
-
-      .stat p {
-        font-size: 16px;
-        color: #666;
-      }
+   
 
       .image-content img {
         width: 100%;
@@ -2668,10 +2670,7 @@ footer {
       margin-bottom: 20px;
     }
 
-    .stat p {
-      font-size: 16px;
-      color: #666;
-    }
+   
 
     .text-section p:first-child {
       font-size: 14px;
@@ -2702,6 +2701,11 @@ footer {
         align-items: center;
         margin: auto;
         background-color: white;
+
+         p {
+          font-size: 16px;
+          color: #666;
+        }
 
         strong {
           display: block;
