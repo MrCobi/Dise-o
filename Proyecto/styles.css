@@ -385,7 +385,7 @@ header {
     .image-content {
       flex: 1 1 45%;
       max-width: 600px;
-      min-width: 300px;
+      min-width: auto;
 
       img {
         width: 100%;
@@ -403,6 +403,7 @@ header {
       .text-content {
         margin-left: 0;
         max-width: 100%;
+        text-align: center;
       }
 
       .image-content {
@@ -1042,6 +1043,7 @@ footer {
         max-width: 100%;
         width: 100%;
         margin-bottom: 30px;
+        margin-left: 0;
 
         h2 {
           font-size: 16px;
@@ -1598,7 +1600,7 @@ footer {
       }
 
       /* Responsivo 735px o menos */
-      @media (width <= 735px) {
+      @media (width <= 767px) {
         flex-direction: column;
         padding: 15px 5px;
         gap: 0;
@@ -2602,19 +2604,21 @@ footer {
       align-items: center;
       max-width: 1200px;
       margin: 0 auto;
+      
+      .text-content {
+        h2 {
+          font-size: 16px;
+          color: #8e5ff4;
+          margin-bottom: 10px;
+          text-align: center;
+        }
 
-      .text-content h2 {
-        font-size: 16px;
-        color: #8e5ff4;
-        margin-bottom: 10px;
-        text-align: center;
-      }
-
-      .text-content h3 {
-        text-align: center;
-        font-size: 30px;
-        color: #000;
-        margin-bottom: 20px;
+        h3 {
+          text-align: center;
+          font-size: 30px;
+          color: #000;
+          margin-bottom: 20px;
+        }
       }
 
       .stats {
@@ -3003,7 +3007,7 @@ footer {
       justify-content: space-around;
       flex: 2;
       margin-bottom: 20px;
-      margin-left: 19%;
+      margin-left: 0%;
     }
 
     .footer-column {
@@ -3033,14 +3037,14 @@ footer {
     }
 
     .footer-column:nth-child(4) {
-      margin-right: 120px;
+      margin-right: 0 !important;
     }
 
     .footer-note {
       display: flex;
       justify-content: space-between;
-      margin-left: 110px;
-      margin-right: 110px;
+      margin-left: 2%;
+      margin-right: 2%;
       align-items: center;
       padding: 10px 0;
       border-top: 1px solid #eae7e7;
@@ -3054,7 +3058,7 @@ footer {
     .footer-note .footer-links {
       display: flex;
       align-items: center;
-      text-align: right;
+      text-align: center;
       gap: 5px;
       margin: 0;
       padding: 0;
@@ -3374,65 +3378,53 @@ footer {
   }
 
   #achievements {
-    padding: 50px 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 20px 0;
+    padding: 20px 10px !important;  /* Forzamos padding reducido */
+    margin: 10px 0;
 
     .achievements-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-
       .text-content {
+        min-width: 100% !important;   /* Ocupa todo el ancho */
+        max-width: 100% !important;   /* Evita desbordamientos */
+        
         h2 {
-          font-size: 15px;
-          color: #8e5ff4;
-          margin-bottom: 10px;
-          text-align: center;
+          font-size: 12px !important;  /* Tamaño ajustado */
         }
 
         h3 {
-          font-size: 30px;
-          color: #000;
-          margin-bottom: 20px;
-          text-align: center;
+          font-size: 20px !important;  /* Tamaño ajustado */
+          margin-bottom: 10px !important;
+        }
+
+        .image-content {
+          min-width: auto !important;  /* Ocupa todo el ancho */
         }
       }
 
       .stats {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: column !important;
+        gap: 10px !important;
 
         .stat {
-          padding: 20px;
-          border-radius: 10px;
-          text-align: center;
-          flex: none !important;
+          padding: 10px !important;  /* Padding reducido */
+          flex: 1 !important;         /* Permite ajuste */
 
           strong {
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 10px;
+            font-size: 18px !important;  /* Texto más pequeño */
           }
 
           p {
-            font-size: 16px;
-            color: #666;
+            font-size: 12px !important;   /* Texto más pequeño */
           }
         }
       }
 
       .image-content img {
-        width: 100%;
+        max-width: 100% !important;  /* Imagen ajustada al contenedor */
         height: auto;
-        border-radius: 10px;
       }
     }
   }
+
 
   .about-container {
     display: flex;
@@ -3719,6 +3711,12 @@ footer {
           font-size: 14px;
           max-width: 300px;
           margin: 0 auto 10px;
+          text-align: center;
+        }
+
+        .footer-social {
+          margin-top: 30px;
+          margin-left: 0;
         }
       }
 
